@@ -2,7 +2,7 @@ input1 = int(input("Enter number of elements you want in list :"))
 list_ = []
 
 
-def reverse_oddLists():
+def reverse_Lists():
     """
     Creating a return_list of 'anything', cause with blank list we're going to face indexing errors during inserting
     elements in return list. We'll change this list with 'pop' and 'insert' method.
@@ -41,4 +41,4 @@ print("Method 2 :", new_list)
 # this is the modified new list... if we worked with main list then we can't able to work further with that list.
 
 # method 3 --
-print("Method 3 :", reverse_oddLists())
+print("Method 3 :", reverse_Lists())
